@@ -1,4 +1,2 @@
-# FirstRepo
-First github repository
-<br>
-Author - Soham Sanap
+# SAIT intra club activity
+SAIT project<br>
