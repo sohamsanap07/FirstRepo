@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main{
+    background-color: rgb(254, 209, 151);
+    height:100%vw;
+    width: 100%vw;
+    margin-bottom: 5px;
+    border-radius: 25px;
+    padding-bottom: 10px;
+}
+h1{
+    display: flex;
+    margin-bottom: 20px;
+    background-color: rgb(205, 129, 129);
+    position: relative;
+    text-align: center;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+
+    
+        color: white;
+        text-shadow: 2px 2px 4px #f200be;
+      
+      
+}
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Open Sans', sans-serif;
+    /* background-image: linear-gradient(to bottom right, orange,yellow); */
+}
+
+pre{
+    text-align: centre;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500px;
+}
+.buylink{
+    padding: 8px;
+    text-align: center;
+    background-color: rgb(255, 208, 0);
+    border-radius: 10px;
+    /* outline: none; */
+    border:1px solid black;
+    margin-right: 10px;
+    font-weight:1000px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+.checked {
+    color:orange;
+  }
+.buylink:hover{
+    background-color:orange;
+    transition: 0.5s;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5)
+}
+#book01{
+    height: 400px;
+    border-radius: 25px;
+}
+#book01:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px 0px rgba(165, 42, 42, 0.336);
+      
+}
+#book02{
+    height: 400px;
+    border-radius: 25px;
+}
+#book02:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px 0px rgba(165, 42, 42, 0.336);
+}
+#book03{
+    height: 400px;
+    border-radius: 25px;
+}
+#book03:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px 0px rgba(165, 42, 42, 0.336);
+}
+#book04{
+    height: 400px;
+    border-radius: 25px;
+}
+#book04:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px 0px rgba(165, 42, 42, 0.336);
+}
+#book05{
+    height: 400px;
+    border-radius: 25px;
+}
+#book05:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px 0px rgba(165, 42, 42, 0.336);
+}
+  
+footer{
+    padding: 20px;
+    background-color: rgb(205, 129, 129);
+    font-family: 'PT Sans', sans-serif;
+    border-radius: 25px;
+    font-weight:300px;
+}
+#about{
+    text-decoration:none;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+      
+}
+#about:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+#contact{
+    text-decoration:none;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+      
+}
+#contact:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+#help{
+    text-decoration:none;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+      
+}
+#help:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+#Complaint{
+    text-decoration:none;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+      
+}
+#Complaint:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+    cursor: pointer;
+}

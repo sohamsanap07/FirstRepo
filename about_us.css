@@ -1,0 +1,103 @@
+ /*---- About us-----*/
+
+ .container{
+    width: 90%;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+    display:flex;
+    justify-content: center;
+ }
+
+.container title{
+    text-align: center;
+}
+.container h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 25px;
+    position: relative ;
+}
+.container h1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(196, 28, 28);
+}
+
+
+
+ .title{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+}
+ h1{
+    font-size: 36px;
+    font-weight: 600;
+    
+ }
+
+ p{
+    font-size: 20px;
+    color: black;
+    font-weight: 200;
+    line-height: 22px;
+    padding: 10px;
+
+ }
+.about-content{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: centre;
+}
+/* .image{
+    flex:1;
+    margin-right: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    
+} */
+.content{
+    /* flex: 1; */
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content p{
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.learnmore{
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(224, 144, 145);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.developers{
+    font-family: 'Caveat', cursive;
+font-family: 'Foldit', sans-serif;
+}
+.learnmore:hover{
+    background-color:rgb(224, 145, 145);
+}
